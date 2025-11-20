@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Torrent Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Piattaforma Torrent</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="upload.html">Carica Torrent</a>
+    <a href="login.html">Login</a>
+  </nav>
+
+  <h2>Ricerca Torrents</h2>
+  <input id="searchInput" placeholder="Cerca nel titolo...">
+  <button onclick="searchTorrent()">Cerca</button>
+
+  <h2>Lista Torrents</h2>
+  <div id="torrentList"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

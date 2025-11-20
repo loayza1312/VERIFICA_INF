@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Dettaglio Torrent</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a href="index.html">⬅ Torna indietro</a>
+
+  <h1 id="title"></h1>
+  <p id="description"></p>
+  <p id="size"></p>
+  <p id="categories"></p>
+
+  <h2>Commenti</h2>
+  <div id="commentList"></div>
+
+  <h3>Aggiungi Commento</h3>
+  <textarea id="commentText" maxlength="160"></textarea><br>
+  <select id="rating">
+    <option value="1">1 ⭐</option>
+    <option value="2">2 ⭐⭐</option>
+    <option value="3">3 ⭐⭐⭐</option>
+    <option value="4">4 ⭐⭐⭐⭐</option>
+    <option value="5">5 ⭐⭐⭐⭐⭐</option>
+  </select><br>
+  <button onclick="addComment()">Invia</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
